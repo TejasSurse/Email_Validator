@@ -1,0 +1,108 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@400;500&display=swap');
+
+*{
+    padding : 0;
+    margin: 0;
+  font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 19px 12px;
+}
+ul{
+    display: flex;
+
+}
+ul li{
+    list-style: none;
+    padding: 0 13px;
+    
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+
+}
+ul>li>a:hover{
+    color: rgb(164, 161, 204);
+}
+main{
+    min-height: 90vh;
+    padding: 2px;
+}
+.logo img{
+    width: 15px;
+    filter: invert(1);
+}
+
+
+footer{
+    font-size: 12px;
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.container{
+   
+    max-width: 800vh; 
+    margin : auto;
+    padding: 15px;
+}
+.container h1{
+    padding: 12px 0;
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding: 9px 12px;
+    border: 1px solid grey;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+@media only screen and (max-width: 600px){
+    
+
+    .container{
+        font-size: 12px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        padding: 6px 0;
+    }
+    .logo span{
+        font-size: 20px;
+    }
+    .logo img{
+        width: 15px;
+        filter: invert(1)
+    }
+
+}
+input [type = "text"]{
+    min-width: 244px;
+    padding: 2px 12px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 12px;
+    
+}
+
+#ResultCont div::first-letter{
+    text-transform: uppercase;
+}
